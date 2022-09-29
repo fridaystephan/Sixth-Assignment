@@ -1,0 +1,78 @@
+body{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+#main-page{
+    background-color: brown;
+    margin: 30px 10px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.title{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+
+}
+.image-cover{
+    background-image: url("../Images/background.jpg");
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-color: brown;
+    padding: 10px;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0px auto;   
+}
+
+#img-caption{
+    margin: 15px 0 5px 0;
+    color: aqua;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+#heading{
+    margin: 40px 0;
+}
+
+#timeline{
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.15;
+}
+
+blockquote{
+    font-style: italic;
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+
+#link{
+    color: darkslateblue;
+}
+
+footer{
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bolder;
+}
